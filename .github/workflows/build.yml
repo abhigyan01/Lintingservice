@@ -2,7 +2,7 @@ name: Build
 
 on:
   workflow_run:
-    workflows: ["Python Lint"]
+    workflows: ["Docker Lint"]
     types:
       - success
 
