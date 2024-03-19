@@ -41,4 +41,7 @@ def main():
     print("Result of subtracting:", result2)
 
 if __name__ == "__main__":
+    """
+    This module provides functions for basic arithmetic operations.
+    """
     main()
