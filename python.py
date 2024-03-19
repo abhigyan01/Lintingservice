@@ -1,19 +1,14 @@
-def factorial(n):
-    """
-    Calculate the factorial of a given number.
+# sample_python_code.py
 
-    Parameters:
-    n (int): The number to calculate the factorial for.
+def greet(name):
+    """This function greets the user."""
+    return f"Hello, {name}!"
 
-    Returns:
-    int: The factorial of the given number.
-    """
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
+def main():
+    """Main function."""
+    user_name = input("Enter your name: ")
+    message = greet(user_name)
+    print(message)
 
-# Test the factorial function
 if __name__ == "__main__":
-    num = 5
-    print(f"The factorial of {num} is {factorial(num)}")
+    main()
