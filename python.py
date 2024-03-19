@@ -33,7 +33,8 @@ def subtract_numbers(a, b):
 def main():
     """
     Entry point of the script.
-    Computes the result of adding and subtracting numbers and prints the results.
+    Computes the result of adding and subtracting numbers and prints
+    the results.
     """
     result1 = add_numbers(5, 3)
     result2 = subtract_numbers(10, 4)
@@ -41,7 +42,7 @@ def main():
     print("Result of subtracting:", result2)
 
 if __name__ == "__main__":
-    """
-    This module provides functions for basic arithmetic operations.
-    """
+
     main()
+
+    
