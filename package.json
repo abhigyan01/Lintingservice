@@ -1,0 +1,17 @@
+{
+    "name": "linting-service",
+    "version": "1.0.0",
+    "description": "A sample linting service package.json file",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "eslint": "^8.0.0",
+      "prettier": "^2.5.0"
+    }
+  }
+  
